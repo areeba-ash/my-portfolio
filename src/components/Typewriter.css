@@ -1,0 +1,38 @@
+/* src/components/Typewriter.css */
+.typewriter {
+    display: flex;
+    flex-direction: column; /* Display text vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure it takes the full height of the viewport */
+    font-size: 3em; /* Adjust the font size as needed */
+    color: #88c7d8; /* Change the color to your desired value */
+   
+  }
+  
+  .welcome-section {
+    margin-bottom: 0px; /* Add margin to move it a little above */
+    text-align: center;
+  }
+  
+  .welcome-heading {
+    font-size: 1.5em;
+    color: rgba(196, 167, 212, 0.836); /* Try a different color */
+  }
+ 
+  
+  .underline {
+    border-bottom: 2px solid #61dafb; /* Underline color */
+    width: 100px; /* Adjust the width of the underline */
+    margin: 0px auto; /* Center the underline */
+  }
+  
+  .description-section {
+    text-align: center;
+    margin-bottom: 170px; /* Add margin to move it a little above */
+  }
+  
+  .description-text {
+    font-size: 1.4em;
+  }
+  

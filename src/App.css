@@ -1,0 +1,86 @@
+/* src/App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000ad;
+  color: #3333335d;
+}
+
+header {
+  background-color: #0e121b;
+  color: #61dafb;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  scroll-snap-type: y mandatory; /* Enable vertical scrolling snap */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+section {
+  background-color: #c98282;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(95, 65, 65, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  scroll-snap-align: start;
+}
+
+h2 {
+  font-size: 2em;
+  color: #61dafb;
+  margin-bottom: 20px;
+ 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #093744;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+html, body {
+  scroll-behavior: auto; /* Enable smooth scrolling by default */
+}

@@ -1,0 +1,25 @@
+/* src/components/AboutMe.css */
+.about-me-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(143, 124, 124, 0.1);
+    background-color: #04081842;
+    border-radius: 8px;
+  }
+  
+  .about-me-container h2 {
+    font-size: 2em;
+    color: #050c22;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #c6bee0;
+    margin-bottom: 15px;
+  }
+  
+  /* Add additional styles as needed */
+  

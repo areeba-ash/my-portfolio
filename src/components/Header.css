@@ -1,0 +1,67 @@
+/* src/components/Header.css */
+header {
+  background-color: #151418;
+  color: #6baabb;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+  background-color: #10141f5b; /* Change the color for the top section */
+  color: #65ebeb; /* Text color for the top section */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding for the top section */
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.bottom-section {
+  margin-top: 20px; /* Adjust margin between top and bottom sections */
+}
+
+.bottom-section h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #a1dcec; /* Change the color for the "Your Name" line */
+}
+
+.nav-links {
+  margin-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d2f2fa;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #61dafb;
+  color: #fff;
+}
+
+/* Add styling for icons (optional) */
+.social-links a {
+  color: #61dafb;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+  }
+}

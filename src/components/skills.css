@@ -1,0 +1,32 @@
+/* src/components/Skills.css */
+section {
+    margin: 40px 0;
+  background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Set text color to white to contrast with the background */
+  padding: 40px;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    color: #f1f3f7; /* Dark grey color for the title */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  li {
+    background-color: #04191f; /* Light blue background for each skill */
+    color: white; /* White text color for skills */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
