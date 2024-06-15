@@ -16,11 +16,11 @@ const Projects = () => {
       {/* Add more images as needed */}
     </div>
         <div className="project-details">
-          <h3 className="project-title">Project 1: Introducing Our New Gaming Store Project</h3>
+          <h3 className="project-title">Project 1: Introducing my Gaming Store Project</h3>
           <p className="project-description">
-          We are thrilled to announce our latest project – a state-of-the-art gaming store, engineered using the powerhouse technology, React.js.
+          I am thrilled to announce my latest project – a state-of-the-art gaming store, engineered using the powerhouse technology, React.js.
           gaming store interface.
-          Our project utilizes the power of React.js for fast, reliable, and intuitive user experiences. As an open-source JavaScript library, React.js is renowned for its efficiency, scalability and simplicity. It's the technology of choice for some of the world’s leading applications.
+          My project utilizes the power of React.js for fast, reliable, and intuitive user experiences. As an open-source JavaScript library, React.js is renowned for its efficiency, scalability and simplicity. It's the technology of choice for some of the world’s leading applications.
 Here's a quick overview of the technologies incorporated:
 React.js: Our primary framework, providing a smooth gaming store experience.
 Redux: Managing the state of your application, ensuring consistent performance.
@@ -28,7 +28,7 @@ React Router: Enabling seamless navigation throughout our gaming store.
 Webpack: Optimizing code bundling, for quick load times and a seamless user experience.
 Babel: Ensuring our application remains cross-compatible, across different browsers.
 
-Our gaming store project has been crafted with meticulous attention to detail. It promises to provide an easy to navigate, visually appealing, and user-friendly interface that will keep gamers coming back for more.
+My gaming store project has been crafted with meticulous attention to detail. It promises to provide an easy to navigate, visually appealing, and user-friendly interface that will keep gamers coming back for more.
 Stay tuned for more updates on our groundbreaking project!
 #GamingStore #ReactJs #WebDevelopment #Redux #ReactRouter #Webpack #Babel #UserExperience
 

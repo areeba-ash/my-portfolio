@@ -2,6 +2,7 @@
 import React from 'react';
 import Typewriter from '../components/Typewriter';
 
+
 const HomePage = () => {
   const phrases = ["A web developer", "A designer", "passionate about coding"];
 

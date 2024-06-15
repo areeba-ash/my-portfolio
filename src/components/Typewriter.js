@@ -1,6 +1,8 @@
-// src/components/Typewriter.js
+
 import React, { useState, useEffect } from 'react';
 import './Typewriter.css';
+import ResumeDownloadButton from './ResumeDownloadButton';
+
 
 const Typewriter = ({ phrases }) => {
   const [currentText, setCurrentText] = useState('');
@@ -29,15 +31,23 @@ const Typewriter = ({ phrases }) => {
   return (
     <div className="typewriter">
       <div className="welcome-section">
-        <h1 className="welcome-heading">Welcome to My Portfolio, <br />I am Areeba!</h1>
+
+        <h1 className="welcome-heading"> </h1>
+        I am Areeba!
     
         <div className="underline"></div>
+       
       </div>
       <div className="description-section">
         <p className="description-text"> {currentText}</p>
+        <ResumeDownloadButton />
       </div>
     </div>
   );
+
 };
+
+
+
 
 export default Typewriter;

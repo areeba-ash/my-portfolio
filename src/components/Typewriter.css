@@ -5,20 +5,46 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensure it takes the full height of the viewport */
-    font-size: 3em; /* Adjust the font size as needed */
-    color: #88c7d8; /* Change the color to your desired value */
-   
+    font-size: 2.5em; /* Adjust the font size as needed */
+    /* color: #88c7d8;  */
+   color: #c3ebf7;
   }
   
   .welcome-section {
+   
     margin-bottom: 0px; /* Add margin to move it a little above */
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   
-  .welcome-heading {
-    font-size: 1.5em;
-    color: rgba(196, 167, 212, 0.836); /* Try a different color */
-  }
+  .welcome-heading img {
+    border-radius: 50%;
+    width: 250px; /* Adjust the size as needed */
+    height: 250px; /* Adjust the size as needed */
+    margin-right: 40px;
+    margin-bottom: 250;
+    animation: bounceIn 1s ease-out; /* Add animation property */
+  
+}
+
+
+@keyframes bounceIn {
+    0% {
+        transform: translateY(-500px); /* Move the image off-screen initially */
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(30px); /* Bounce position */
+    }
+    80% {
+        transform: translateY(-15px); /* Final bounce position */
+    }
+    100% {
+        transform: translateY(0); /* Back to the original position */
+        opacity: 1;
+    }
+}
  
   
   .underline {
@@ -29,10 +55,25 @@
   
   .description-section {
     text-align: center;
-    margin-bottom: 170px; /* Add margin to move it a little above */
+    margin-bottom: 200px; 
+    
   }
   
   .description-text {
     font-size: 1.4em;
+    margin-left: 200;
   }
   
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #45a049;
+}
+

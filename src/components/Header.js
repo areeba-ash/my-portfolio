@@ -1,4 +1,4 @@
-// src/components/Header.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -10,16 +10,16 @@ const Header = () => {
     <header>
       <div className="top-section">
         <div className="social-links">
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/areeba-ash-a25bb2248/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/reeba_ash/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
         <div className="contact-info">
-          <p>Email: areebabhatti90@gmail.com</p>
-          <p>Phone: +92 3088589651</p>
+          <p>Email: abc@gmail.com</p>
+          <p>Phone: +1 3485563551</p>
         </div>
       </div>
       <div className="bottom-section">
