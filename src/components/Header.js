@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
   return (
@@ -18,8 +18,12 @@ const Header = () => {
           </a>
         </div>
         <div className="contact-info">
-          <p>Email: abc@gmail.com</p>
-          <p>Phone: +1 3485563551</p>
+          <p>
+            📧 <a href="mailto:areebabhatti90@gmail.com">areebabhatti90@gmail.com</a>
+          </p>
+          <p>
+            ☎️ <a href="tel:+923117790677">+923117790677</a>
+          </p>
         </div>
       </div>
       <div className="bottom-section">
