@@ -13,9 +13,15 @@ const Skills = () => {
         <li>React</li>
         <li>PHP</li>
         <li>Laravel</li>
+        <li>Wordpress</li>
+        <li>Wix</li>
+        <li>Hetzner, WHM, Azure</li>
         <li>CakePHP</li>
         <li>API development</li>
         <li>MySql</li>
+        <li>Database Management</li>
+        <li>SEO</li>
+        <li>SMM</li>
         {/* Add more skills as needed */}
       </ul>
 
