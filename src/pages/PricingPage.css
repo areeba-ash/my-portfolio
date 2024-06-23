@@ -1,0 +1,45 @@
+/* Add this CSS to your global styles or a dedicated CSS file */
+
+.pricing-page {
+    padding: 20px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .pricing-box h3 {
+    font-size: 29px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .pricing-box .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9ae3e6;
+  }
+  
+  .pricing-box .features {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .pricing-box .features li {
+    margin-bottom: 8px;
+  }
+  

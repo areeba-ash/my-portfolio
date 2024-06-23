@@ -7,6 +7,7 @@ import SkillsPage from './pages/SkillsPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+import PricingPage from './pages/PricingPage';
 
 const AppRouter = () => {
   const navigateToSection = (sectionId) => {
@@ -25,6 +26,7 @@ const AppRouter = () => {
         <Route path="/about" element={<AboutMePage />} />
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/header" element={<HeaderPage />} />
       </Routes>
