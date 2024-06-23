@@ -22,7 +22,7 @@ const Header = () => {
             📧 <a href="mailto:areebabhatti90@gmail.com">areebabhatti90@gmail.com</a>
           </p>
           <p>
-            ☎️ <a href="tel:+923117790677">+923117790677</a>
+            ☎️ <a href="tel:+923117790677">+923088589651</a>
           </p>
         </div>
       </div>

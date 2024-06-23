@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const phoneNumber = '+1234567890'; // Replace with your WhatsApp number
+  const phoneNumber = '+923088589651'; // Replace with your WhatsApp number
 
   const [selectedService, setSelectedService] = useState('');
   const [showWebsiteType, setShowWebsiteType] = useState(false);
