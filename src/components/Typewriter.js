@@ -19,12 +19,15 @@ const Typewriter = ({ phrases }) => {
   }, [index, phrases]);
 
   // Headline text
-  const headline = "Web Developer & SEO Expert";
+  const headline = "";
 
   return (
     <div className="typewriter">
       <div className="welcome-section">
-        <h1 className="welcome-heading">I am Areeba!</h1>
+      <div className="welcome-heading">
+          <img src="/images/areeba.jpg" alt="Profile" />
+          <h1>I am Areeba!</h1>
+        </div>
         <div className="underline"></div>
         <p className="headline">{headline}</p> {/* Added headline here */}
       </div>

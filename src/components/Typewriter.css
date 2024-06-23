@@ -27,6 +27,9 @@
     animation: bounceIn 1s ease-out; /* Add animation property */
   
 }
+.welcome-heading h1 {
+  font-size: 1.1em; /* Adjust the size as needed */
+}
 
 
 @keyframes bounceIn {
@@ -60,7 +63,7 @@
   }
   
   .description-text {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-left: 200;
   }
   

@@ -1,53 +1,46 @@
-/* src/components/Contact.css */
 .contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 8px;
-  }
-  
-  .contact-container h2 {
-    font-size: 2em;
-    color: #e2f1f5;
-    margin-bottom: 20px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form label {
-    font-size: 1.2em;
-    margin-bottom: 8px;
-    color: #aab4da;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #04032c;
-    border-radius: 4px;
-    font-size: 1em;
-  }
-  
-  .contact-form button {
-    background-color: #08627a;
-    color: #c2d0f1;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .contact-form button:hover {
-    background-color: #4795b8;
-  }
-  
-  /* Add additional styles as needed */
-  
+  margin: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px; /* Adjust height as needed */
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}

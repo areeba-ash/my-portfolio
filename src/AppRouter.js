@@ -29,17 +29,17 @@ const AppRouter = () => {
         <Route path="/header" element={<HeaderPage />} />
       </Routes>
 
-      {/* Navigation Links */}
+      Navigation Links
       <div style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
-        <ScrollLink
+        {/* <ScrollLink
           to="about"
           smooth={true}
           duration={800}
           onClick={() => navigateToSection('about')}
         >
           About
-        </ScrollLink>
-        <ScrollLink
+        </ScrollLink> */}
+        {/* <ScrollLink
           to="skills"
           smooth={true}
           duration={800}
@@ -54,17 +54,21 @@ const AppRouter = () => {
           onClick={() => navigateToSection('projects')}
         >
           Projects
-        </ScrollLink>
-        <ScrollLink
+        </ScrollLink> */}
+        {/* <ScrollLink
           to="contact"
           smooth={true}
           duration={800}
           onClick={() => navigateToSection('contact')}
         >
           Contact
-        </ScrollLink>
+        </ScrollLink> */}
       </div>
+      
+  
+    
     </Router>
+    
   );
 };
 
