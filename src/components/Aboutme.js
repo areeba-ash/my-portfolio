@@ -7,32 +7,33 @@ const AboutmePage = () => {
     <div className="about-me-container">
       <h2>About Me</h2>
       <p>
-        Hello there! I am Areeba, a seasoned software engineer with a passion for crafting
-        exceptional web experiences. With a strong foundation in web development, I specialize in
-        frontend technologies such as React.js, JavaScript, HTML, and CSS. On the backend, I
-        harness the power of PHP and Laravel to build robust and scalable solutions. My expertise
-        extends to MySQL, ensuring seamless database integration for dynamic and efficient
-        applications.
+        Hello there!
+I am a seasoned software engineer with a passion for web development and design. 
+With extensive experience in crafting robust digital solutions, 
+I specialize in enhancing online visibility through expert SEO strategies and effective social media management.
       </p>
       <p>
-        Armed with a Bachelor's degree in Software Engineering, my journey in the tech world has
-        been marked by a commitment to excellence and continuous learning. Over the years, I've had
-        the privilege of working on a diverse range of projects, from creating captivating user
-        interfaces to architecting robust backend systems.
+      As a web developer, I leverage cutting-edge technologies to build dynamic and responsive websites
+       that not only meet but exceed client expectations. My proficiency spans frontend and backend development,
+       ensuring seamless user experiences and efficient functionality.
       </p>
       <p>
-        My approach to web development goes beyond coding. I believe in the fusion of design and
-        functionality to deliver user-centric and visually appealing websites. Whether it's
-        breathing life into frontend interfaces or optimizing backend processes, I thrive on
-        turning concepts into reality.
+      In addition to my development prowess, I am adept at optimizing websites for search engines, 
+      employing proven SEO techniques to drive organic traffic and improve search engine rankings.
+       My strategic approach involves keyword research, on-page optimization, 
+       and content strategy to achieve sustainable growth.
+
+Furthermore, as a skilled social media manager, I orchestrate comprehensive campaigns across various platforms 
+to amplify brand presence and engage target audiences effectively. I harness analytics and insights to 
+refine strategies and maximize reach, fostering meaningful connections with users.
       </p>
       <p>
-        I am on a perpetual quest for knowledge, staying abreast of the latest industry trends and
-        technologies. This dedication ensures that my solutions are not only current but also
-        forward-thinking.
+      With a diverse skill set encompassing software engineering, web development, design, SEO expertise, and social media management,
+       I am committed to delivering innovative solutions that propel businesses forward in the digital landscape.
       </p>
       <p>
-        If you are looking for a web development enthusiast who can transform your ideas into
+        If you are looking for a web development enthusiast and increase your brand awareness,
+         who can transform your ideas into
         digital masterpieces, you're in the right place. Let's collaborate and create something
         extraordinary together. Feel free to reach out, and let the coding adventure begin!
       </p>

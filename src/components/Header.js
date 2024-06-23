@@ -27,7 +27,8 @@ const Header = () => {
         </div>
       </div>
       <div className="bottom-section">
-        <h1>My Portfolio Website</h1>
+      {/* <img src="/path/to/your/logo.png" alt="Logo" className="logo" /> */}
+        <h1></h1>
         <nav className="nav-links">
           <Link to="/home">Home</Link>
           <Link to="/about">About</Link>
